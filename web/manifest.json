@@ -1,6 +1,6 @@
 {
-    "name": "workflows",
-    "short_name": "workflows",
+    "name": "dicee_flutter",
+    "short_name": "dicee_flutter",
     "start_url": ".",
     "display": "minimal-ui",
     "background_color": "#0175C2",
