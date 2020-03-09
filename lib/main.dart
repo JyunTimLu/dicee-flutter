@@ -3,17 +3,25 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 void main() {
-  return runApp(
-    MaterialApp(
+  return runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      theme: ThemeData(
+        primaryColor: Colors.blue,
+        accentColor: Colors.white12,
+      ),
       home: Scaffold(
           backgroundColor: Colors.white12,
           appBar: AppBar(
             title: Text('Dicee'),
-            backgroundColor: Colors.white12,
           ),
           body: DicePage()),
-    ),
-  );
+    );
+  }
 }
 
 class DicePage extends StatefulWidget {
